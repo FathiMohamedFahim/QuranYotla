@@ -1,0 +1,375 @@
+@import url('https://fonts.googleapis.com/css2?family=Alexandria:wght@100..900&display=swap');
+
+* {
+    font-family: "Alexandria", sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+}
+
+body {
+    direction: rtl;
+    background-color: white;
+}
+
+header {
+    background-color: #ffffff;
+    width: 100%;
+}
+
+.border {
+    border-bottom: solid 1px rgb(0, 0, 0);
+    width: 100%;
+}
+
+.logo h1 {
+    color: rgb(0, 0, 0);
+    padding: 20px;
+}
+
+/* @media (max-width:600px) {
+    .logo h1 {
+        font-size: 15px;
+    }
+} */
+
+.navigation {
+    padding-right: 20px;
+    padding-top: 20px;
+}
+
+.navigation a {
+    color: #0000ff;
+    text-decoration: none;
+    padding-left: 20px;
+    transition: 0.7s ease;
+
+}
+
+/* @media (max-width:600px) {
+    .navigation a {
+        font-size: 15px;
+        padding-left: 10px;
+    }
+} */
+
+.navigation a:hover {
+    transform: scale(1.1);
+    color: #0000ff;
+}
+
+.navigation i {
+    color: #000000;
+    text-decoration: none;
+    padding-left: 20px;
+    display: inline-block;
+}
+
+/* @media (max-width:600px) {
+    .navigation i {
+        padding-left: 10px;
+    }
+
+} */
+
+.main{
+    margin-top: 40px; 
+    width: 100%;
+    padding: 0 20px;
+
+}
+@media (min-width:1000px) {
+    .main{
+        font-size: 21px;
+    
+    }
+}
+@media (min-width:1200px) {
+    .main{
+        margin-top: 40px; 
+        width: 99%;
+        padding: 0 20px;
+        font-size: 22px;
+    
+    }
+}
+@media(min-width:1530px){
+    .main{
+        margin-top: 40px; 
+        width: 95%;
+        padding: 0 20px;
+        padding-right: 100px;
+        font-size: 25px;
+    
+    }
+}
+
+.container{
+    width: 100%;
+    /* this code for tesr  
+    i will delete it*/
+    background-color: rgb(157, 255, 300);
+    display: flex;
+    padding: 20px;
+    border-radius: 30px;
+}
+
+.reader-img a img {
+    border-radius: 100%;
+    width: 300px;
+    transition: 0.7s ease;
+
+}
+
+/* @media (max-width:600px) {
+    .reader-img a img {
+        width: 100%;
+    }
+    .container{
+        display:block;
+    }
+} */
+
+.reader-name h2 {
+    color: rgb(0, 0, 0);
+}
+
+.reader-deatils {
+    color: rgb(0, 0, 0);
+    margin-top: 20px;
+}
+
+.container-2 {
+    width: 100%;
+}
+
+.reader-info {
+    width: 100%;
+}
+
+.page-btn {
+    margin-top: 150px;
+    text-align: center;
+    transition: 0.7s ease;
+}
+
+/* @media (max-width:600px) {
+    .page-btn{
+        margin-top: 30px;
+    }
+    
+} */
+
+.page-btn a {
+    text-decoration: none;
+    font-size: 30px;
+    color: #3a6cf4;
+    background-color: #000000;
+    padding: 15px;
+    border-radius: 10px;
+    transition: 0.7s ease;
+}
+
+/* @media (max-width:600px) {
+    .page-btn a {
+        font-size: 15px;
+        padding: 10px;
+    }
+} */
+
+.page-btn:hover {
+    color: #b7bdec;
+    transform: scale(1.1);
+}
+
+.page-btn a:hover {
+    color: #b7bdec;
+    transform: scale(1.1);
+}
+
+.song {
+    padding: 100px;
+}
+
+/* @media (max-width:600px) {
+    .song{
+        padding-top:30px;
+        padding: 10px;
+    }
+}
+ */
+
+.button {
+    display: block;
+    background-color: aquamarine;
+    margin: 10px;
+    padding: 20px;
+    font-size: 20px;
+    text-decoration: none;
+    color: #000;
+    border-radius: 100px;
+    transition: 0.7s ease;
+}
+
+.button:hover {
+    transform: scale(1.1);
+}
+
+.container-4 {
+    padding: 20px;
+    background-color: rgb(0, 0, 0);
+    width: 100%;
+    border-top: 1px solid white;
+    display: flex;
+}
+
+/* @media (max-width:600px) {
+    .container-4{
+    padding: 5px 0 ;
+    }
+} */
+
+footer {
+    /* delet this after 3th reader */
+    margin-top: 50px;
+    background-color: white;
+    text-align: center;
+}
+
+footer h3 {
+    color: white;
+    padding-right: 20%;
+}
+
+footer p {
+    color: white;
+}
+
+.social-icons{
+    display: flex;
+}
+
+
+.social-icons a {
+    color: white;
+}
+
+.social-icons a {
+    padding: 0 10px;  
+}
+/* @media (max-width:600px) {
+    .social-icons a{
+        padding: 0 05px;  
+    }
+    
+    
+} */
+
+.social-icons .facebook {
+    color: blue;
+}
+
+.social-icons .instgram {
+    color: red;
+}
+
+.social-icons .linkedin {
+    color: blue;
+}
+
+.span2024{
+    color: #0000ff;
+}
+
+.div-name a{
+    color: red;
+}
+
+@media (max-width:600px) {
+    .logo h1 {
+        font-size: 15px;
+    }
+}
+
+@media (max-width:600px) {
+    .navigation a {
+        font-size: 15px;
+        padding-left: 10px;
+    }
+}
+
+@media (max-width:600px) {
+    .navigation i {
+        padding-left: 10px;
+    }
+
+}
+
+@media (max-width:600px) {
+    .reader-img a img {
+        width: 100%;
+    }
+    .container{
+        display:block;
+    }
+}
+
+@media (max-width:600px) {
+    .page-btn{
+        margin-top: 30px;
+    }
+    
+}
+
+@media (max-width:600px) {
+    .page-btn a {
+        font-size: 15px;
+        padding: 10px;
+    }
+}
+
+@media (max-width:600px) {
+    .song{
+        padding-top:30px;
+        padding: 10px;
+    }
+}
+
+@media (max-width:600px) {
+    .container-4{
+    padding: 5px 0 ;
+    }
+}
+
+@media (max-width:600px) {
+    .social-icons a{
+        padding: 0 05px;  
+    }
+}
+
+@media (max-width:600px) {
+    .div-name{
+    font-size: 15px;
+    }
+    
+}
+
+@media (max-width:600px) {
+    .div-name{
+    font-size: 15px;
+    }
+    footer p{
+        font-size: 10px;
+    }
+    footer{
+        font-size: 10px;
+    }
+    footer h3{
+        padding: 0;
+        margin: 0;
+    }
+    .social-icons{
+        font-size: 20px;
+    }
+}
